@@ -41,7 +41,14 @@ p{
 }
 /* primary Button */
 
-
+.cardBTNpri{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
+}
 
 /* nav style start  */
 
@@ -120,6 +127,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 32px 0px;
 }
 .card{
   max-width: 302px;
@@ -143,4 +151,90 @@ nav{
 }
 
 /* Pillars section End */
+
+/* The Vision of Future section start */
+.visionCards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visionArea h2{
+  margin-bottom: 24px;
+}
+
+.visionArea p{
+  margin-bottom: 32px;
+}
+
+.visionCards{
+  margin: 32px 0px;
+}
+.visionCard{
+  max-width: 410px;
+  max-height: 325px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.visionCard img{
+  max-width: 64px;
+  margin-bottom: 24px;
+}
+
+.visionCard h3{
+  margin-bottom: 12px;
+}
+
+.visionCard p{
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.visionCards .card1{
+  background-color: #548ff520;
+}
+.visionCard .cardBTN1{
+  background-color: #5490F5;
+}
+.visionCards .card2{
+  background-color: #C6E4D6;
+}
+.visionCard .cardBTN2{
+  background-color: #09A15C;
+  margin-top: 20px;
+}
+.visionCards .card3{
+  background-color: #F7EBCF;
+}
+.visionCard .cardBTN3{
+  background-color: #FFC239;
+}
+
+/*  The Vision of Future section end */
+
+/*  Quote Section start */
+.quoteSec{
+  padding: 48px 24px;
+  background-color: #ffffff;
+  border: 2px solid #0e0e0e15;
+  border-radius: 16px;
+}
+
+
+.quoteP{
+  background-image: url(./assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-top: 25px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  color: #0e0e0e7c;
+}
+
+.quoteSec h3{
+  line-height:24px;
+}
+
+/*  Quote Section End */
 
