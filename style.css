@@ -103,7 +103,7 @@ nav{
   margin-bottom: 24px;
 }
 
-.bannerBTN{
+.bannerBTN {
   font-size: 18px;
   color: #ffffff;
   font-weight: 600;
@@ -218,6 +218,7 @@ nav{
   background-color: #ffffff;
   border: 2px solid #0e0e0e15;
   border-radius: 16px;
+  margin-bottom: 80px;
 }
 
 
@@ -234,7 +235,112 @@ nav{
 
 .quoteSec h3{
   line-height:24px;
+  margin-bottom: 4px;
 }
 
 /*  Quote Section End */
 
+/* Your Opinion Matters Start */
+
+
+ /* Your Opinion Matters end  */
+.opinionSec{
+  margin-bottom: 80px;
+}
+.opinionsec h2{
+  margin-bottom: 24px;
+}
+.tabel{
+  padding: 36px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+.tittel{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #C6E4D6;
+}
+.tittel h3{
+  font-size: 20px;
+  color: #0E0E0E;
+}
+
+.itme{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 36px;
+  border: 2px solid #0e0e0e15;
+  
+}
+
+.itme p{
+}
+
+.dropBTN{
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #C6E4D6;
+  border-radius: 4px;
+  border: 2px solid #0e0e0e15;
+}
+
+.dropBTN h4{
+  font-size: 16px;
+  color: #0E0E0E;
+}
+
+
+/* Recent News start  */
+.newsSec h2{
+  margin-bottom: 24px;
+}
+.newsSec p{
+  margin-bottom: 32px;
+}
+
+.news{
+  display: flex;
+  align-items: center;
+  padding: 48px;
+  gap: 32px;
+}
+
+.news img {
+  max-width: 408px;
+  border-radius: 24px;
+}
+.newsText{
+  max-width: 744px;
+}
+.newsText h3{
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.newsText img{
+  width: 134px;
+  margin-bottom: 12px;
+}
+
+.dateTime{
+  margin-bottom: 12px;
+}
+
+.newsTextP{
+  margin-bottom: 32px;
+}
+
+.newsBTN {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 17px 34px;
+  border-radius: 8px;
+  background-color: #006A50;
+  border: none;
+}
+/* Recent News end  */
